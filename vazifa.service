@@ -4,10 +4,11 @@ Description=sleep_mode2_bot
 [Service]
 User=root
 WorkingDirectory=/home/projects/sleep_mode2_bot
-ExecStart=/bin/bash -c 'cd /home/projects/aloqabot && python3 main.py'
+ExecStart=/root/apps/bots/sleep_mode2_bot/venv/bin/python /root/apps/bots/sleep_mode2_bot/main.py
 optional items below
 Restart=always
 RestartSec=3
+Environment="PYTHONUNBUFFERED=1"
 
 [Install]
 WantedBy=multi-user.target
