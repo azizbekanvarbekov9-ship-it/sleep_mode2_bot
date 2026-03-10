@@ -3,7 +3,7 @@ Description=sleep_mode2_bot
 
 [Service]
 User=root
-WorkingDirectory=/home/projects/sleep_mode2_bot
+WorkingDirectory=/root/apps/bots/sleep_mode2_bot
 ExecStart=/root/apps/bots/sleep_mode2_bot/venv/bin/python /root/apps/bots/sleep_mode2_bot/main.py
 optional items below
 Restart=always
