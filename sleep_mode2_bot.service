@@ -5,7 +5,6 @@ Description=sleep_mode2_bot
 User=root
 WorkingDirectory=/root/apps/bots/sleep_mode2_bot
 ExecStart=/root/apps/bots/sleep_mode2_bot/venv/bin/python /root/apps/bots/sleep_mode2_bot/main.py
-optional items below
 Restart=always
 RestartSec=3
 Environment="PYTHONUNBUFFERED=1"
