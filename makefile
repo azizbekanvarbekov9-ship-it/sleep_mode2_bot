@@ -10,3 +10,7 @@ deploy:
 restart:
 	@echo "Restarting the bot..."
 	sudo systemctl restart sleep_mode2_bot.service
+
+status:
+	@echo "Checking the bot status..."
+	sudo systemctl status sleep_mode2_bot.service
