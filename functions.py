@@ -12,7 +12,7 @@ async def daily_message(bot: Bot):
         now = datetime.now()
 
 
-        target = now.replace(hour=7, minute=0, second=0, microsecond=0)
+        target = now.replace(hour=11, minute=19, second=0, microsecond=0)
 
 
         if now >= target:
